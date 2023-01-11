@@ -21,7 +21,7 @@ const options = {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-paper.pages.dev/",
+  site: "https://nickeblewis.github.io",
   integrations: [
     tailwind({
       config: {
