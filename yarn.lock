@@ -615,6 +615,14 @@
     fflate "^0.7.3"
     string.prototype.codepointat "^0.2.1"
 
+"@strudel.cycles/core@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@strudel.cycles/core/-/core-0.5.0.tgz#9a46b25f28ec94e2a81bf6c97edd6776d6a9ed1c"
+  integrity sha512-6+jItB/6pwIiGOQwpyo9k72DsJIRy/VDJ0J+r43D9CeoRjhvShQznBrOtd5JuGe9iVn+8D1DjQojq/Ivrj6jsg==
+  dependencies:
+    bjork "^0.0.1"
+    fraction.js "^4.2.0"
+
 "@tailwindcss/typography@^0.5.8":
   version "0.5.9"
   resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.5.9.tgz#027e4b0674929daaf7c921c900beee80dbad93e8"
@@ -1091,6 +1099,11 @@ binary-extensions@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
+
+bjork@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/bjork/-/bjork-0.0.1.tgz#6ebd5ade99164b0be0308788d6469143d5c9ad9c"
+  integrity sha512-IAq1k24hAwuACo82E0NobWh44z2heG4VM0C6c4MxLCDx54Tt4s4tjT8M+0ON4pfXzH2V5Br1tfhhnb19oiMp2w==
 
 bl@^4.1.0:
   version "4.1.0"
