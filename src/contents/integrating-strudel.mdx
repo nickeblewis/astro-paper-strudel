@@ -15,12 +15,24 @@ description: Some notes on how I integrated Strudel into this site and a few dem
 
 import { MiniRepl } from '../docs/MiniRepl';
 
+Yeah
+<MiniRepl
+  tune={`"<0 2 [4 6](3,4,1) 3*2>"
+.scale('D minor')
+.off(1/4, scaleTranspose(2))
+.off(1/2, scaleTranspose(6))
+.legato(.5)
+.echo(4, 1/8, .5)`}
+/>
+
 Welcome to my revised blog site, I ended up switching to Github pages, it seemed fitting as all of my code is here and even my second-brain Obsidian is backed up here.
 This post is about something quite new to me, a new way of expressing musical patterns beyond the traditional DAW or VCV Rack etc etc. I am going to explain this slightly backwards!
 It will make sense in a bit, trust me!
 
 Here is a fun web component or "Astro Island" as this site is built using Astro, with some React thrown in for good measure. If you click on the play button, you will hear a
 musical pattern and what you see in the main text box here, is javascript (of sorts)
+
+<MiniRepl tune={`sequence('a3', ['b3', 'c4'])`} />
 
 INsert MiniRepl code here
 
